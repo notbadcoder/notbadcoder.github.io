@@ -1,9 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<title>Brython Console</title>
+    <meta charset="utf-8">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.9.0/brython.min.js">
+    </script>
 </head>
-<body>
-	<iframe src="http://brython.info/console.html" width="800" height="400"></iframe>
+
+<body onload="brython()">
+
+<script type="text/python">
+from browser import document
+
+document.alert("Hi!")</script>
+
+<iframe src="http://brython.info/console.html" width="800" height="400"></iframe>
+	
 </body>
+
 </html>
