@@ -1,1 +1,1 @@
-# notbadcoder.github.io
+# py-party.github.io
